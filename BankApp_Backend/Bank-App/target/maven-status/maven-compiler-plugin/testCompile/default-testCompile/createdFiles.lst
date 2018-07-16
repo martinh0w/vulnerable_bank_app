@@ -1,0 +1,8 @@
+ninja\jira\skeletonkey\app\controller\AccountControllerTest.class
+ninja\jira\skeletonkey\app\controller\TransactionControllerTest.class
+ninja\jira\skeletonkey\app\controller\ForeignTransactionControllerTest.class
+ninja\jira\skeletonkey\app\controller\RecurringPaymentControllerTest.class
+ninja\jira\skeletonkey\app\controller\CardControllerTest.class
+ninja\jira\skeletonkey\app\controller\MonthlyBillControllerTest.class
+ninja\jira\skeletonkey\app\controller\UserControllerTest.class
+ninja\jira\skeletonkey\app\controller\PayeeControllerTest.class

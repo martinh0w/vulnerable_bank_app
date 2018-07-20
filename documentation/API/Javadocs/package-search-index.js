@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"ninja.jira.skeletonkey.app"},{"l":"ninja.jira.skeletonkey.app.controller"},{"l":"ninja.jira.skeletonkey.app.entity"},{"l":"ninja.jira.skeletonkey.app.repository"},{"l":"ninja.jira.skeletonkey.app.utility"}]

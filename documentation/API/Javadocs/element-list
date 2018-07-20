@@ -1,0 +1,5 @@
+ninja.jira.skeletonkey.app
+ninja.jira.skeletonkey.app.controller
+ninja.jira.skeletonkey.app.entity
+ninja.jira.skeletonkey.app.repository
+ninja.jira.skeletonkey.app.utility

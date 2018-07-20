@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ninja.jira.skeletonkey.app.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.648 s - in ninja.jira.skeletonkey.app.controller.UserControllerTest

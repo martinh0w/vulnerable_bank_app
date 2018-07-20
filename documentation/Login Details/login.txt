@@ -1,0 +1,23 @@
+Atlassian Account:
+user: syewai
+pw: Uemj[SOpy6m6b4X
+
+Jira Account:
+user: syewai
+pw: Uemj[SOpy6m6b4X
+
+MySQL bankdb:
+user: bankuser
+pw: Uemj[SOpy6m6b4X
+
+Gmail account for OTP:
+user: abc.bank.donotreply@gmail.com
+pw: Uemj[SOpy6m6b4X
+
+
+
+
+
+
+
+

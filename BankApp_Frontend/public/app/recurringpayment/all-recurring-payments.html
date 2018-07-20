@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
+Version: 4.5.6
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+        <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Recurring Payments</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="../assets/layouts/layout3/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="../assets/layouts/layout3/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+</head>
+<body class="page-container-bg-solid page-header-menu-fixed">
+    <!-- BEGIN HEADER -->
+    <div class="page-header">
+        <!-- BEGIN HEADER TOP -->
+        <div class="page-header-top">
+            <div class="container">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                    <a href="../user/homepage.html">
+                        <img src="../assets/app/images/logo_small.png" alt="logo" class="logo-default">
+                    </a>
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler"></a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN TOP NAVIGATION MENU -->
+                <div class="top-menu">
+                    <ul class="nav navbar-nav pull-right">
+                        <!-- BEGIN USER LOGIN DROPDOWN -->
+                        <li class="dropdown dropdown-user dropdown-dark">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <img id="header-picture" alt="" class="img-circle" src="">
+                                <span id="user" class="username username-hide-mobile"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-default">
+                                <li>
+                                    <a href="../user/profile.html">
+                                        <i class="icon-user"></i> My Profile </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../index.html">
+                                        <i id="logout" class="icon-key"></i> Log Out </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END USER LOGIN DROPDOWN -->
+                        
+                    </ul>
+                </div>
+                <!-- END TOP NAVIGATION MENU -->
+            </div>
+        </div>
+        <!-- END HEADER TOP -->
+        <!-- BEGIN HEADER MENU -->
+        <div class="page-header-menu">
+            <div class="container">
+                <!-- BEGIN MEGA MENU -->
+                <!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+                <!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
+                <div class="hor-menu  ">
+                    <ul class="nav navbar-nav">
+                        <li class="menu-dropdown classic-menu-dropdown active">
+                            <a href="javascript:;"> Account
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="../user/homepage.html" class="nav-link  ">
+                                        View Accounts
+                                    </a>
+                                </li>
+
+                                <li class=" ">
+                                    <a href="../transfer/transaction-history.html" class="nav-link  ">
+                                        View Transaction History
+                                    </a>
+                                </li>
+
+                                <li class=" ">
+                                    <a href="../recurringpayment/all-recurring-payments.html" class="nav-link  ">
+                                        View Recurring Payments
+                                    </a>
+                                </li>
+                            
+
+                                <li class=" ">
+                                    <a href="../monthlybill/all-monthly-bills.html" class="nav-link  ">
+                                        View Monthly Bills
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown active">
+                            <a href="javascript:;"> Transfer
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="../transfer/transfer-funds.html" class="nav-link  ">
+                                        Transfer Funds
+                                    </a>
+                                </li>
+
+                                <li class=" ">
+                                    <a href="../transfer/foreign-transfer.html" class="nav-link  ">
+                                        Transfer Funds Overseas
+                                    </a>
+                                </li>
+
+                                <li class=" ">
+                                    <a href="../monthlybill/add-monthly-bill.html" class="nav-link  ">
+                                        Pay Monthly Bills
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown active">
+                            <a href="javascript:;"> Payee
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="../payee/add-payee.html" class="nav-link  ">
+                                        Add Payee
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="../payee/all-payees.html" class="nav-link  ">
+                                        View Payees
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown active">
+                            <a href="javascript:;"> Cards
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="../card/add-card.html" class="nav-link  ">
+                                        Add Card
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="../card/all-cards.html" class="nav-link  ">
+                                        View Cards
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown active">
+                            <a href="javascript:;"> Settings
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class=" ">
+                                    <a href="../user/profile.html" class="nav-link  ">
+                                        My Profile
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END MEGA MENU -->
+            </div>
+        </div>
+        <!-- END HEADER MENU -->
+    </div>
+    <!-- END HEADER -->
+
+      
+   
+    
+
+    <!-- BEGIN PAGE CONTENT BODY -->
+    <div class="page-content">
+        <div class="container">
+            <!-- BEGIN PAGE CONTENT INNER -->
+            <div class="page-content-inner">
+                <div class="portlet light portlet-fit ">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class=" icon-layers font-green"></i>
+                            <span class="caption-subject font-green bold uppercase">Recurring Payments</span>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        
+                        <div class="table-scrollable table-scrollable-borderless">
+
+                            <table id="table" class="table table-hover table-light">
+                                <thead>
+                                    <tr class="uppercase">
+                                        <th> Recurring ID </th>
+                                        <th> Account </th>
+                                        <th> Recipient </th>
+                                        <th> Amount </th>
+                                        <th> Period </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="dataTable">
+                                    <!-- TO BE FILLED BY AJAX CALL -->
+                                </tbody>
+                            </table>
+                            <center id="errorMsg" class="font-grey-cascade display-hide"></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!-- END PAGE CONTENT INNER -->
+        </div>
+    </div>
+    <!-- END PAGE CONTENT BODY -->
+    <!-- END CONTENT BODY -->
+    <!-- END CONTENT -->
+    
+     <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+    <!-- BEGIN CORE PLUGINS -->
+    <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="../assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
+    <script src="../assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
+    <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+    <!-- END THEME LAYOUT SCRIPTS -->
+
+    <!-- APP IMPORTS -->
+    <script src="../assets/app/js/jquery.tablesorter.min.js"></script>
+    <script src="../assets/app/js/protect.js"></script>
+    <script src="../assets/app/js/apiUrl.js"></script>
+    <script src="../assets/app/js/account.js"></script>
+    <script src="../assets/app/js/recurringpayment.js"></script>
+    <script src="../assets/app/js/user.js"></script>
+
+    <script>
+        protect();
+        protectOTP();
+        $(document).ready(function() {
+
+            //set user's name
+            getUser(sessionStorage.userID, function(callback) {
+                $('#user').html(callback.fullName);
+            });
+
+            //get user profile picture
+            getProfilePicture(function(callback) {
+                if (callback.message != null && atob(callback.message) != "undefined"){
+                    $('#header-picture').attr("src", function(i, value) {
+                        //decrypt base64 from json string then encode back to base64
+                        return "data:image/jpg;base64," + btoa(atob(callback.message));
+                    });
+                } else {
+                    $('#header-picture').attr("src", function(i, value) {
+                        return "../assets/app/images/profile_picture_default.png"
+                    });
+                }
+                
+            });
+
+            //get all available accounts to display on dropdown
+            getAllAccountByUser(sessionStorage.userID, function(callback) {
+                var accounts = callback;
+
+
+                for(var i = 0; i < accounts.length; i++) {
+                    var acc = accounts[i];
+
+                    getRecurringPaymentByAccount(acc.accountNumber, function(callback) {
+                        var recurringPaymentList = callback;
+
+                        var str="";
+                        for (var j=0; j<recurringPaymentList.length; j++){
+
+                            str +='<tr><td><a href="../recurringpayment/recurring-payment-details.html?recurringID=' + recurringPaymentList[j].recurringID + '">';
+                            str += recurringPaymentList[j].recurringID;
+                            str += '</a></td><td id="fromAccount">';
+                            str += recurringPaymentList[j].fromAccount
+                            str += '</td><td>';
+                            str += recurringPaymentList[j].toAccount;
+                            str += '</td><td>';
+                            str += recurringPaymentList[j].amount.toFixed(2);
+                            str += '</td><td>';
+                            str += recurringPaymentList[j].period.toUpperCase();
+                            str += '</td></tr>';
+                        }
+                        $('#dataTable').append(str);  
+                    })
+                }
+            
+            });
+           
+        });
+    </script>
+</body>
+ 
+</html>
